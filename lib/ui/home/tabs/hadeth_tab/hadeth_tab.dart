@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami_app/ui/home/tabs/hadeth_tab/hadith_title-widget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:islami_app/ui/home/tabs/hadeth_tab/hadith_title-widget.dart';
 
-class HadethTab extends StatelessWidget {
+class HadethTab extends StatefulWidget {
+  @override
+  State<HadethTab> createState() => _HadethTabState();
+}
+
+class _HadethTabState extends State<HadethTab> {
   List<HadithItem> hadithList = [];
 
   @override
   Widget build(BuildContext context) {
-    if (hadithList.isEmpty) loadHadithFile();
+    loadHadithFile();
+    print(hadithList);
     return Container(
       child: hadithList.isEmpty
           ? Center(
@@ -20,7 +26,7 @@ class HadethTab extends StatelessWidget {
                     flex: 1,
                     child: Image.asset('assets/images/hadeth_logo.png')),
                 Container(
-                    margin: EdgeInsets.symmetric(horizontal: 30),
+                    margin: EdgeInsets.symmetric(horizontal: 10),
                     width: double.infinity,
                     alignment: Alignment.center,
                     child: Container(
@@ -57,7 +63,7 @@ class HadethTab extends StatelessWidget {
   void loadHadithFile() async {
     String fileContent =
         await rootBundle.loadString('assets/files/ahadeth.txt');
-    List<String> allAhadith = fileContent.split('#');
+    List<String> allAhadith = fileContent.split("#");
     for (int i = 0; i < allAhadith.length; i++) {
       List<String> hadithLines = allAhadith[i].trim().split('\n');
       String hadithTitle = hadithLines[0];
@@ -67,6 +73,8 @@ class HadethTab extends StatelessWidget {
           HadithItem(title: hadithTitle, content: hadithContent);
       hadithList.add(hadithItem);
     }
+    print("Hadith List: $hadithList");
+    setState(() {});
   }
 }
 

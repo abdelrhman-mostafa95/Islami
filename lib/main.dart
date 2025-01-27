@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:islami_app/provider/settings_provider/settings_provider.dart';
 import 'package:islami_app/style/theme_data.dart';
@@ -6,7 +7,6 @@ import 'package:islami_app/ui/home/home_screen.dart';
 import 'package:islami_app/ui/home/tabs/hadeth_tab/hadith_detials/hadith_details.dart';
 import 'package:islami_app/ui/home/tabs/quran_tab/quran_detalis/quran_details.dart';
 import 'package:islami_app/ui/splash/splash_screen.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     var provider = Provider.of<SettingsProvider>(context);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,

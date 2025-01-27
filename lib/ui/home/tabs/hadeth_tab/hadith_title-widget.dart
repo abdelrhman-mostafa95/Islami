@@ -16,7 +16,7 @@ class HadithTitleWidget extends StatelessWidget {
             arguments: hadithItem);
       },
       child: Container(
-        padding: EdgeInsets.all(10),
+        margin: EdgeInsets.all(12),
         child: Text(
           hadithItem.title,
           textAlign: TextAlign.center,
