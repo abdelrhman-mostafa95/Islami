@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e0afba-2f41-43a4-977a-51ac6297d325" name="Changes" comment="+ update hadeth tab and shared performance" />
+    <list default="true" id="31e0afba-2f41-43a4-977a-51ac6297d325" name="Changes" comment="+ update hadeth tab and shared performance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "abdelrhman-mostafa95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abdelrhman-mostafa95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/abdelrhman-mostafa95/Islami.git",
-    "accountId": "35eb3bcb-a249-4843-91e1-bffd4db5c67f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abdelrhman-mostafa95/Islami.git&quot;,
+    &quot;accountId&quot;: &quot;35eb3bcb-a249-4843-91e1-bffd4db5c67f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,6 +60,7 @@
     "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Abdelrahman Mostafa/StudioProjects/flutter_islami_app/assets/screen_shots",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -64,6 +68,14 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdelrahman Mostafa\StudioProjects\flutter_islami_app\assets\screen_shots" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdelrahman Mostafa\StudioProjects\flutter_islami_app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
