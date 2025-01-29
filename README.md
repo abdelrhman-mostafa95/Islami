@@ -64,3 +64,4 @@ Technical Implementation
 
 5. Audio Playback
    Integrated audio player for Quran recitation and radio streaming.
+
